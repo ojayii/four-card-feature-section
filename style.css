@@ -1,0 +1,111 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    text-align: center;
+    padding-block: 11vmax;
+    font-size: 0.9rem;
+    margin-inline: auto;
+    color: hsl(228, 7%, 72%);
+}
+header .p1 {
+    color: hsl(228, 3%, 68%);
+    font-size: 1.72rem;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+header h2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.7rem;
+    margin: 0.4rem 0 1rem 0;
+}
+header .p2 {
+    width: 83%;
+    margin-inline: auto;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 1.4rem;
+}
+.can {
+    background-color: white;
+    width: 85%;
+    height: 14rem;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+    border-radius: 7px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    padding-block: 1.7rem;
+    padding-inline: 7%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px 0 hsl(0, 5%, 92%);
+}
+.can h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.5rem;
+}
+.can p {
+    color: hsl(229, 6%, 66%);
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.can img {
+    align-self: flex-end;
+    justify-self: ;
+    margin-top: auto;
+}
+#can2 {
+    border-color: hsl(0, 78%, 62%);
+}
+#can3 {
+    border-color: hsl(34, 97%, 64%);
+}
+#can4 {
+    border-color: hsl(212, 86%, 64%);
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding-block: 3.6rem;
+    }
+    header .p2 {
+        width: 43%;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .can {
+        width: 315px;
+        max-width: 315px;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1200px) {
+    .can {
+        width: 270px;
+        height: 12.5rem;
+    }
+    .col2 {
+        margin-bottom: 2rem;
+    }
+    .can img {
+        width: 3rem;
+        height: auto;
+    }
+}
